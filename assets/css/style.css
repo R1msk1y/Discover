@@ -1,0 +1,12 @@
+@font-face {
+  font-family: latoR;
+  src: url("../fonts/Lato-Regular.ttf");
+  font-family: latoBI;
+  src: url("../fonts/Lato-BlackItalic.ttf"); }
+html {
+  font-size: 18px; }
+
+body, html {
+  font-family: latoR; }
+
+/*# sourceMappingURL=style.css.map */
