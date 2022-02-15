@@ -2,11 +2,128 @@
   font-family: latoR;
   src: url("../fonts/Lato-Regular.ttf");
   font-family: latoBI;
-  src: url("../fonts/Lato-BlackItalic.ttf"); }
+  src: url("../fonts/Lato-BlackItalic.ttf");
+  font-family: latoBold;
+  src: url("../fonts/Lato-Bold.ttf");
+  font-family: latoBlack;
+  src: url("../fonts/Lato-Black.ttf"); }
+*,
+*::after,
+*::before {
+  box-sizing: border-box; }
+
 html {
-  font-size: 18px; }
+  font-size: 10px; }
 
 body, html {
   font-family: latoR; }
+
+body {
+  background-color: #fff; }
+
+.wrapper {
+  max-width: 1920px;
+  margin: 0 auto; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between; }
+
+header .container {
+  align-items: center; }
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0; }
+.nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #474747;
+  display: block;
+  padding: 56px 23px;
+  font-size: 1.8rem;
+  transition: all .3s ease;
+  font-family: latoBlack;
+  font-weight: 900; }
+  .nav a:hover {
+    color: #fff;
+    background-color: #59c45a; }
+
+.logo {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #59c45a;
+  font-family: latoBold;
+  font-weight: bold;
+  font-size: 2.8rem;
+  display: block;
+  padding: 12px 21px;
+  border: 2px solid #b7b7b7;
+  position: relative; }
+  .logo::after {
+    content: "travel";
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    color: #59c45a;
+    font-weight: normal;
+    padding: 0 15px;
+    background-color: #fff;
+    position: absolute;
+    top: 45px;
+    left: 40px;
+    z-index: 1; }
+
+.burger {
+  display: none; }
+
+@media (max-width: 1000px) {
+  header .container {
+    flex-direction: column;
+    padding-top: 15px; }
+
+  .nav {
+    margin-top: 40px;
+    width: 100%; }
+    .nav li {
+      flex-grow: 1; }
+    .nav a {
+      text-align: center;
+      padding: 56px 0; } }
+@media (max-width: 800px) {
+  .burger {
+    display: block;
+    background-color: #59c45a;
+    width: 100%;
+    padding: 20px 0;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.8rem;
+    font-family: latoBlack;
+    font-weight: 900;
+    text-transform: uppercase;
+    outline: none; }
+
+  nav ul {
+    flex-direction: column;
+    display: none; }
+
+  nav ul {
+    flex-direction: column;
+    display: none; }
+
+  .nav a {
+    padding: 20px 0;
+    background: #59c45a;
+    color: #fff;
+    border-top: 2px solid #fff; }
+    .nav a:hover {
+      background: #59c45a;
+      color: #474747; } }
 
 /*# sourceMappingURL=style.css.map */

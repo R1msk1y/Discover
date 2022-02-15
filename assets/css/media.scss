@@ -1,0 +1,67 @@
+@media(max-width: 1000px){
+
+    header .container{
+        flex-direction: column;
+        padding-top: 15px;
+    }
+
+    .nav{
+        margin-top: 40px;
+        width: 100%;
+        li{
+            flex-grow: 1;
+        }
+        a{
+            text-align: center;
+            padding: 56px 0;
+        }
+
+    }
+
+
+
+
+}
+
+@media(max-width:800px){
+
+    //burger
+    .burger{
+        display: block;
+        background-color: $green;
+        width: 100%;
+        padding: 20px 0;
+        border: none;
+        cursor: pointer;
+        color: $white;
+        font-size: 1.8rem;
+        font-family: latoBlack;
+        font-weight: 900;
+        text-transform: uppercase;
+        outline: none;
+    }
+
+    //header
+    nav ul{
+        flex-direction: column;
+        display: none;
+    }
+
+    nav{
+        ul{
+            flex-direction: column;
+            display: none;
+        }
+    }
+    .nav a{
+        padding: 20px 0;
+        background: $green;
+        color: $white;
+        border-top: 2px solid $white;
+        &:hover{
+            background: rgba($color: $green, $alpha: 60%);
+            color: $grey;
+
+        }
+    }
+}

@@ -1,18 +1,49 @@
 @import "fonts";
+@import "vars";
+
 
 //main
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
 html{
-    font-size: 18px;
+    font-size: 10px;
 }
 body,html{
 
     font-family: latoR;
-
-
+}
+body{
+    background-color: $white;
 
 }
+.wrapper{
+    max-width: $wrapWidth;
+    margin: 0 auto;
+
+}
+.container{
+    max-width: $contWidth;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
 
 
 
 //blocks
 @import "blocks/header";
+@import "blocks/burger";
+
+
+
+// https://youtu.be/svz9btK3zSk?t=1450
+
+//media
+@import "media";
+

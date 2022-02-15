@@ -1,0 +1,60 @@
+header .container{
+    align-items: center;
+}
+
+
+.nav{
+    ul{
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+    a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: $grey;
+        display: block;
+        padding: 56px 23px;
+        font-size: 1.8rem;
+        transition: all .3s ease;
+        font-family: latoBlack;
+        font-weight: 900;
+        &:hover{
+            color: $white;
+            background-color: $green;
+
+        }
+    }
+
+}
+.logo{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $green;
+    font-family: latoBold;
+    font-weight: bold;
+    font-size: 2.8rem;
+    display: block;
+    padding: 12px 21px;
+    border: 2px solid #b7b7b7;
+    position: relative;
+
+    &::after{
+        content: "travel";
+        text-transform: uppercase;
+        font-size: 1.8rem;
+        color: $green;
+        font-weight: normal;
+        padding: 0 15px;
+        background-color: $white;
+        position: absolute;
+        top: 45px;
+        left: 40px;
+        z-index: 1;
+
+    }
+
+
+}
+
