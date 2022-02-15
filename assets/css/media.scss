@@ -24,12 +24,27 @@
         padding: 40px 0;
     }
 
+    //favorable
+
+    .fav-container{
+        flex-direction: column;
+    }
+    .fav-item{
+        width: 100%;
+    }
+    .fav-text{
+        width: 100%;
+    }
+    .fav-img{
+        width: 30%;
+    }
+
 
 
 
 } //1000px END
 
-@media(max-width:800px){
+@media(max-width: 800px){
 
     //burger
     .burger{
@@ -79,3 +94,19 @@
         font-size: 5rem;
     }
 } //800px END
+
+@media (max-width: 600px){
+    //favorable
+    .fav-item{
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .fav-img{
+        width: 70%;
+        margin: 0 auto;
+
+    }
+
+
+}

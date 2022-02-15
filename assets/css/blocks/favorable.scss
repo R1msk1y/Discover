@@ -1,0 +1,35 @@
+.favorable{
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+.fav-container{
+    flex-wrap: wrap;
+    margin-top: 60px;
+    padding: 0 15px;
+
+}
+.fav-item{
+    width: 48%;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+
+}
+.fav-text{
+    width: 280px;
+    h6{
+        margin: 14px 0 25px;
+        font-size: 1.5rem;
+        color: $darkgrey;
+        line-height: 20px;
+    }
+    p{
+        font-size: 1.4rem;
+        color: $lightgrey;
+        line-height: 22px;
+    }
+}
+.fav-img{
+    width: 40%;
+    margin-right: 30px;
+}
