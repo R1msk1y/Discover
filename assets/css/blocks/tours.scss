@@ -1,0 +1,35 @@
+.tours{
+    padding: 100px 0;
+    text-align: center;
+}
+.tours-container{
+    flex-wrap: wrap;
+    margin: 75px auto;
+
+}
+.tours-link{
+    flex: 0 24%;
+    margin-bottom: 2%;
+
+}
+.tours-img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+.more{
+    cursor:pointer;
+    border: none;
+    text-transform: uppercase;
+    color: $white;
+    background: $green;
+    font-size: 26px;
+    padding: 0.96em 1.92em;
+    border-radius: 0.19em;
+    box-shadow: 0 0 1.34em rgba(89,196,90, 65%);
+    transition: all .3s linear;
+    &:hover{
+        box-shadow: none;
+    }
+}
