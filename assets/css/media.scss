@@ -18,10 +18,16 @@
 
     }
 
+    //home
+    .home{
+        min-height: auto;
+        padding: 40px 0;
+    }
 
 
 
-}
+
+} //1000px END
 
 @media(max-width:800px){
 
@@ -64,4 +70,12 @@
 
         }
     }
-}
+    header .container{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    //home
+    .home-title{
+        font-size: 5rem;
+    }
+} //800px END
