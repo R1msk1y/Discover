@@ -1,0 +1,107 @@
+.contacts{
+    padding: 100px 0 90px;
+    background: #efeeee;
+    h2{
+        margin: 0;
+        text-transform: uppercase;
+        font-size: 2.8rem;
+        font-weight: 400;
+        color: $lightgrey;
+        text-align: center;
+
+    }
+}
+.contacts-container{
+    margin-top: 60px;
+}
+.contacts-info {
+    width: 50%;
+    border: 1px solid #c9c9c9;
+    padding: 35px 30px 60px;
+    p{
+        margin: 40px 0 30px;
+        color: $lightgrey;
+        font-size: 1.4rem;
+        line-height: 22px;
+    }
+}
+.logo {
+}
+.footer-logo {
+    display: inline-block;
+    &:after{
+        background-color: #efeeee;
+    }
+}
+.contacts-item {
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    span, a{
+        font-size: 1.4rem;
+        color: #9b9b9b;
+        font-weight: bold;
+        font-family: latoBold;
+        text-decoration: none;
+    }
+    i{
+        color: #ed7e01;
+        font-size: 2rem;
+        margin-right: 20px;
+    }
+
+
+
+}
+.fa-solid {
+}
+.fa-location-check {
+}
+.fa-phone {
+}
+.fa-envelope {
+}
+.fa-house {
+}
+.contacts-form {
+    width: 50%;
+    border: 1px solid #c9c9c9;
+    padding: 30px;
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    input, textarea{
+        width: 100%;
+        height: 40px;
+        border: none;
+        border-bottom: 1px solid #c9c9c9;
+        background: none;
+        font-size: 1.4rem;
+        color: $lightgrey;
+        margin-bottom: 30px;
+        outline: none;
+    }
+    textarea{
+        resize: none;
+        height: 130px;
+    }
+    button{
+        cursor:pointer;
+        border: none;
+        text-transform: uppercase;
+        color: $white;
+        background: $green;
+        font-size: 26px;
+        padding: 0.96em 1.92em;
+        border-radius: 0.19em;
+        box-shadow: 0 0 1.34em rgba(89,196,90, 65%);
+        transition: all .3s linear;
+        margin-top: 60px;
+        max-width: 230px;
+        align-self: center;
+        &:hover{
+            box-shadow: none;
+        }
+    }
+}
